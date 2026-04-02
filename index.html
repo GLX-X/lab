@@ -1,55 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>OS Lab Programs</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OS Lab Programs</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d1117;
+  color: #fff;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  background: #161b22;
+  border-bottom: 1px solid #30363d;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  background: #161b22;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s;
+  border: 1px solid #30363d;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(88,166,255,0.3);
+}
+
+a {
+  text-decoration: none;
+  color: #58a6ff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  color: #8b949e;
+}
+</style>
 </head>
+
 <body>
 
-<h1>OS Lab Programs</h1>
+<header>💻 OS Lab Programs</header>
 
-<a href="adder.c">Adder</a><br>
+<div class="container">
 
-<a href="bankers.c">Bankers</a><br>
+<div class="card"><a href="adder.c">Adder</a></div>
+<div class="card"><a href="bankers.c">Banker's</a></div>
+<div class="card"><a href="c-scan.c">C-SCAN</a></div>
+<div class="card"><a href="LOOK(1%5D.c">LOOK</a></div>
+<div class="card"><a href="deadlock%20c">Deadlock</a></div>
+<div class="card"><a href="dining%20philosophor.c">Dining Philosopher</a></div>
+<div class="card"><a href="fork_example1.c">Fork Example</a></div>
+<div class="card"><a href="fork_exec1(1).c">Fork Exec</a></div>
+<div class="card"><a href="fullscheduling1(1)Lc">Scheduling</a></div>
+<div class="card"><a href="multithread_stats1(1).c">Multithreading</a></div>
+<div class="card"><a href="os_fork_wait1(1).c">Fork Wait</a></div>
+<div class="card"><a href="page%20replacement.c">Page Replacement</a></div>
+<div class="card"><a href="paging.c">Paging</a></div>
+<div class="card"><a href="process11(1).c">Process 1</a></div>
+<div class="card"><a href="process22.c">Process 2</a></div>
+<div class="card"><a href="quadractic1(1).c">Quadratic</a></div>
+<div class="card"><a href="receiver%201(1).c">Receiver</a></div>
+<div class="card"><a href="semaphores12(1).c">Semaphore 1</a></div>
+<div class="card"><a href="semaphores13(l).c">Semaphore 2</a></div>
+<div class="card"><a href="sender1.c">Sender</a></div>
+<div class="card"><a href="sstf.c">SSTF</a></div>
+<div class="card"><a href="time_print1.c">Time Print</a></div>
 
-<a href="c-scan.c">C-SCAN</a><br>
+</div>
 
-<a href="LOOK(1%5D.c">LOOK</a><br>
-
-<a href="deadlock%20c">Deadlock</a><br>
-
-<a href="dining%20philosophor.c">Dining Philosopher</a><br>
-
-<a href="fork_example1.c">Fork Example</a><br>
-
-<a href="fork_exec1(1).c">Fork Exec</a><br>
-
-<a href="fullscheduling1(1)Lc">Full Scheduling</a><br>
-
-<a href="multithread_stats1(1).c">Multithreading</a><br>
-
-<a href="os_fork_wait1(1).c">Fork Wait</a><br>
-
-<a href="page%20replacement.c">Page Replacement</a><br>
-
-<a href="paging.c">Paging</a><br>
-
-<a href="process11(1).c">Process 1</a><br>
-
-<a href="process22.c">Process 2</a><br>
-
-<a href="quadractic1(1).c">Quadratic</a><br>
-
-<a href="receiver%201(1).c">Receiver</a><br>
-
-<a href="semaphores12(1).c">Semaphore 1</a><br>
-
-<a href="semaphores13(l).c">Semaphore 2</a><br>
-
-<a href="sender1.c">Sender</a><br>
-
-<a href="sstf.c">SSTF</a><br>
-
-<a href="time_print1.c">Time Print</a><br>
+<footer>© 2026 OS Lab | Built with GitHub Pages</footer>
 
 </body>
 </html>
